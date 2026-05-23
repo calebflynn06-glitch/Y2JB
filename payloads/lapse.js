@@ -1710,7 +1710,7 @@
             return;
         }
         
-        if (compare_version(FW_VERSION, "10.01") > 0) {
+        if (compare_version(FW_VERSION, "12.70") > 0) {
             await log("Unsupported fw " + FW_VERSION);
             send_notification("Unsupported fw " + FW_VERSION);
             return;
